@@ -1,0 +1,12 @@
+diary_analyzer/
+│
+├── app/
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── services.py
+│   ├── utils.py
+│   └── ai_analysis.py
+│
+├── requirements.txt
+└── README.md

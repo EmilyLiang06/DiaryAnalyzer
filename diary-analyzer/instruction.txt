@@ -1,0 +1,30 @@
+后端：
+1. python语言(fastapi)，数据库，网络交互，异步
+2. postgresql/mysql
+3. http/https做api交互
+4. ai: agno/agent-ui
+
+docker部署
+brew install docker
+brew install postgresql
+brew install mysql
+brew install redis
+brew install kafka
+brew install nginx
+
+前端：
+1. next.js: react+typescript+tailwind css+shadcn。最原始的：js+css+html
+
+
+1. 生成日记，存成文件
+2. 入库(postgresql/mysql, 建表)，增删改查
+
+3. 查询，并送到大模型进行分析，分析结果（regexp）
+4. 分析结果入库
+
+
+5. 定义服务端api（fastapi），json包装，http传输
+6. postman， curl
+
+7. next.js做一个简单的纯客户端页面
+8. 尝试对接服务端api
