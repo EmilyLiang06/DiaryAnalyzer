@@ -10,7 +10,7 @@ class Diary(Base):
     date = Column(Date, nullable=False)
     text = Column(Text, nullable=False)
     mood = Column(String(32))
-    keywords = Column(String(256))  # 可以用逗号分隔关键词
+    keywords = Column(String(256))
 
     def __repr__(self):
         return f"<Diary(id={self.id}, date={self.date}, mood={self.mood})>"
